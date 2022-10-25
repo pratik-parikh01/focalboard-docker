@@ -1,7 +1,7 @@
 name: build
 
 env:
-  DOCKERHUB_REPO: nicoulaj/focalboard
+  DOCKERHUB_REPO: pratikparikh/focalboard
   FOCALBOARD_MAJOR: 7
   FOCALBOARD_MINOR: 4
   FOCALBOARD_INCREMENT: 3
@@ -9,10 +9,10 @@ env:
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
