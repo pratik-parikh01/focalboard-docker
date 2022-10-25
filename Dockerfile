@@ -19,3 +19,4 @@ COPY --from=builder /focalboard/focalboard/ /opt/focalboard/
 WORKDIR /opt/focalboard
 EXPOSE 8000
 CMD /opt/focalboard/bin/focalboard-server
+
